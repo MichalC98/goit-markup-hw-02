@@ -1,0 +1,17 @@
+.link {
+text-decoration:none;
+color: #000;
+}
+.link:hover {
+    color:#2196F3
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+/* Index Page: przycisk zamówienia */
+.order-servis-button {
+    color: #fff;
+    background-color:#2196F3;
+    border-radius: 4px;
+    border: none;
+}
