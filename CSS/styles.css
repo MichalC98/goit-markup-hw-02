@@ -1,3 +1,11 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size:26px;
+}
+.background {
+    color: #fff;
+    background-color: #2F303A;
+}
 .link {
 text-decoration:none;
 color: #000;
@@ -5,13 +13,46 @@ color: #000;
 .link:hover {
     color:#2196F3
 }
-.logo {
-    font-family: 'Raleway', sans-serif;
+.link:focus {
+    color: #2196F3
 }
 /* Index Page: przycisk zamówienia */
-.order-servis-button {
-    color: #fff;
-    background-color:#2196F3;
-    border-radius: 4px;
-    border: none;
+    .order-button {
+        color: #fff;
+        background-color:#2196F3;
+        border-radius: 4px;
+        border: none;
+        width: 200px;
+        height: 50px;
+    }
+/*Portfolio page: przyciski*/
+    .selector-button {
+        color: #000;
+        background-color: #f5f4fa;
+        border-radius: 4px;
+        border: none;
+        width: 93px;
+        height: 38px;
+    }
+    .selector-button:hover {
+        background-color: #2196F3;
+            color: #fff;
+    }
+    .selector-button:focus {
+        background-color: #2196F3;
+        color: #fff;
+    }
+/*Kolumny*/
+    .column3 {
+        columns: 3;
+    }
+    .column4 {
+        columns: 4;
+    }
+    .column5 {
+        columns: 5;
+    }
+
+.center {
+    text-align: center;
 }
