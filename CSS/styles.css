@@ -6,16 +6,28 @@
     color: #fff;
     background-color: #2F303A;
 }
-.link {
-text-decoration:none;
-color: #000;
+.navigation-text {
+    color: #212121;
 }
-.link:hover {
-    color:#2196F3
+.address-text-top {
+    color: #757575;
 }
-.link:focus {
-    color: #2196F3
+.address-text-bottom {
+    color: #ffffff99;
 }
+.fading-text {
+    color: #757575;
+}
+/*Link*/
+    .link {
+    text-decoration:none;
+    }
+    .link:hover {
+        color:#2196F3
+    }
+    .link:focus {
+        color: #2196F3
+    }
 /* Index Page: przycisk zamówienia */
     .order-button {
         color: #fff;
@@ -24,6 +36,10 @@ color: #000;
         border: none;
         width: 200px;
         height: 50px;
+    }
+    .order-button-text {
+        font-weight: 700;
+        font-size: 16px;
     }
 /*Portfolio page: przyciski*/
     .selector-button {
