@@ -1,32 +1,106 @@
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-size:26px;
+/*Color palete*/
+    :root {
+        --main-blue: #2196F3;
+        --fade-on-white: #757575;
+        --fade-on-black: #ffffff99;
+        --background-color: #2F303A;
+        --lighter-black: #212121;
+        --white: #fff;
+        --black: #000;
+        --kolor7: #f5f4fa;
+    }
+    
+/*Heder and footer*/    
+    .logo {
+        font-family: 'Raleway', sans-serif;;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .logo-white {
+        color: var(--white);
+    }
+    .logo-black {
+        color: var(--black)
+    }
+    .logo-blue {
+        color: var(--main-blue)
+    }
+    .navigation-text {
+        color: var(--lighter-black);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+    .address-text-top {
+        color: var(--fade-on-white);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    .street-address {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+    }
+    .address-text-bottom {
+        color: var(--fade-on-black);
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
+
+/**/
+.main-head-line {
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+}
+.section-headline {
+    font-size: 36px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
-.background {
-    color: var(--kolor5);
-    background-color: var(--kolor1);
-}
-.navigation-text {
-    color: var(--kolor2);
-}
-.address-text-top {
+.text-headline {
     font-size: 14px;
-    font-weight: 500;
-    color: var(--kolor3);
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
-.address-text-bottom {
+.text-content {
+    font-size: 14px;
     font-weight: 400;
-    font-size: 14px;
-    color: var(--kolor4);
-    text-decoration: none;
+    letter-spacing: 0.03em;
 }
-.fading-text {
-    color: var(--kolor3);
-}
+
+/*Staf*/
+    .team-member {
+        color: var(--lighter-black);
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    .member-position {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+
+/*Product*/
+    .product-name {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.06em;
+    }
+    .product-description {
+        color: var(--fade-on-white);
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+    }
+
 /*Link*/
     .link {
-    text-decoration:none;
+        text-decoration:none;
     }
     .link:hover {
         color:var(--main-blue)
@@ -34,9 +108,10 @@
     .link:focus {
         color: var(--main-blue)
     }
-/* Index Page: przycisk zamówienia */
+    
+/*Index Page: Order button*/
     .order-button {
-        color: var(--kolor5);
+        color: var(--white);
         background-color:var(--main-blue);
         border-radius: 4px;
         border: none;
@@ -50,9 +125,15 @@
     .order-button:hover {
         cursor: pointer;
     }
-/*Portfolio page: przyciski*/
+    
+/*Portfolio page: buttons*/
+    .selector-button-text {
+        color: var(--lighter-black);
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
     .selector-button {
-        color: var(--kolor6);
         background-color: var(--kolor7);
         border-radius: 4px;
         border: none;
@@ -62,14 +143,15 @@
     }
     .selector-button:hover {
         background-color: var(--main-blue);
-            color: var(--kolor5);
+        color: var(--white);
     }
     .selector-button:focus {
         background-color: var(--main-blue);
-        color: var(--kolor5);
+        color: var(--white);
         cursor: pointer;
     }
-/*Kolumny*/
+    
+/*Kolumns*/
     .column3 {
         columns: 3;
     }
@@ -79,48 +161,15 @@
     .column5 {
         columns: 5;
     }
-
-.center {
-    text-align: center;
-}
-.text14-400 {
-    font-size: 14px;
-    font-weight: 400;
-}
-.text14-700 {
-    font-size: 14px;
-    font-weight: 700;
-}
-.text16 {
-    font-size: 16px;
-}
-.text18-700 {
-    font-weight: 700;
-    font-size: 18px;
-}
-.text36-700 {
-    font-size: 36px;
-    font-weight: 700;
-}
-.text44-900 {
-    font-weight: 900;
-    font-size: 44px;
-}
-.spacing3 {
-    letter-spacing: 0.03em;
-}
-.spacing6 {
-    letter-spacing: 0.06em;
-}
-/*Color palete*/
-    :root {
-        --main-blue: #2196F3;
-        --kolor1: #2F303A;
-        --kolor2: #212121;
-        --kolor3: #757575;
-        --kolor4: #ffffff99;
-        --kolor5: #fff;
-        --kolor6: #000;
-        --kolor7: #f5f4fa;
+    
+/*Text modyfikation*/
+    .center {
+        text-align: center;
     }
-   
+    .fading-text-on-white {
+        color: var(--fade-on-white);
+    }
+    .background {
+        color: var(--white);
+        background-color: var(--background-color);
+    }
