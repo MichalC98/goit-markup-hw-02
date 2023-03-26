@@ -1,23 +1,28 @@
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size:26px;
+    font-weight: 700;
 }
 .background {
-    color: #fff;
-    background-color: #2F303A;
+    color: var(--kolor5);
+    background-color: var(--kolor1);
 }
 .navigation-text {
-    color: #212121;
+    color: var(--kolor2);
 }
 .address-text-top {
-    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--kolor3);
 }
 .address-text-bottom {
-    color: #ffffff99;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--kolor4);
     text-decoration: none;
 }
 .fading-text {
-    color: #757575;
+    color: var(--kolor3);
 }
 /*Link*/
     .link {
@@ -31,7 +36,7 @@
     }
 /* Index Page: przycisk zamówienia */
     .order-button {
-        color: #fff;
+        color: var(--kolor5);
         background-color:var(--main-blue);
         border-radius: 4px;
         border: none;
@@ -47,8 +52,8 @@
     }
 /*Portfolio page: przyciski*/
     .selector-button {
-        color: #000;
-        background-color: #f5f4fa;
+        color: var(--kolor6);
+        background-color: var(--kolor7);
         border-radius: 4px;
         border: none;
         width: 93px;
@@ -57,11 +62,11 @@
     }
     .selector-button:hover {
         background-color: var(--main-blue);
-            color: #fff;
+            color: var(--kolor5);
     }
     .selector-button:focus {
         background-color: var(--main-blue);
-        color: #fff;
+        color: var(--kolor5);
         cursor: pointer;
     }
 /*Kolumny*/
@@ -78,9 +83,9 @@
 .center {
     text-align: center;
 }
-.text18-700 {
-    font-weight: 700;
-    font-size: 18px;
+.text14-400 {
+    font-size: 14px;
+    font-weight: 400;
 }
 .text14-700 {
     font-size: 14px;
@@ -88,6 +93,10 @@
 }
 .text16 {
     font-size: 16px;
+}
+.text18-700 {
+    font-weight: 700;
+    font-size: 18px;
 }
 .text36-700 {
     font-size: 36px;
@@ -97,8 +106,21 @@
     font-weight: 900;
     font-size: 44px;
 }
+.spacing3 {
+    letter-spacing: 3%;
+}
+.spacing6 {
+    letter-spacing: 6%;
+}
 /*Color palete*/
     :root {
-        --main-blue: #2196F3
+        --main-blue: #2196F3;
+        --kolor1: #2F303A;
+        --kolor2: #212121;
+        --kolor3: #757575;
+        --kolor4: #ffffff99;
+        --kolor5: #fff;
+        --kolor6: #000;
+        --kolor7: #f5f4fa;
     }
    
