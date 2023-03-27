@@ -9,12 +9,13 @@
         --black: #000;
         --kolor7: #f5f4fa;
     }
-    
-/*Heder and footer*/    
+
+/*Heder and Footer*/    
     .logo {
         font-family: 'Raleway', sans-serif;;
         font-size: 26px;
         font-weight: 700;
+        line-height: 30.52px;
     }
     .logo-white {
         color: var(--white);
@@ -30,17 +31,20 @@
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.02em;
+        line-height: 16.41px;
     }
     .address-text-top {
         color: var(--fade-on-white);
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.03em;
+        line-height: 16.41px;
     }
     .street-address {
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 0.03em;
+        line-height: 24px;
     }
     .address-text-bottom {
         color: var(--fade-on-black);
@@ -48,29 +52,40 @@
         font-weight: 400;
         letter-spacing: 0.03em;
         text-decoration: none;
+        line-height: 24px;
+    }
+    .address-text-bottom:hover {
+        color: var(--white);
+    }
+    .address-text-bottom:focus {
+        color: var(--white);
     }
 
-/**/
-.main-head-line {
-    font-weight: 900;
-    font-size: 44px;
-    letter-spacing: 0.06em;
-}
-.section-headline {
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-.text-headline {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-.text-content {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-}
+/*Body text elements*/
+    .main-head-line {
+        font-weight: 900;
+        font-size: 44px;
+        letter-spacing: 0.06em;
+        line-height: 60px;
+    }
+    .section-headline {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        line-height: 42.19px;
+    }
+    .text-headline {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        line-height: 16.41px;
+    }
+    .text-content {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        line-height: 24px;
+    }
 
 /*Staf*/
     .team-member {
@@ -78,11 +93,13 @@
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.03em;
+        line-height: 18.75px;
     }
     .member-position {
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.03em;
+        line-height: 18.75px;
     }
 
 /*Product*/
@@ -90,12 +107,14 @@
         font-weight: 700;
         font-size: 18px;
         letter-spacing: 0.06em;
+        line-height: 18px;
     }
     .product-description {
         color: var(--fade-on-white);
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.03em;
+        line-height: 16px;
     }
 
 /*Link*/
@@ -115,6 +134,7 @@
         background-color:var(--main-blue);
         border-radius: 4px;
         border: none;
+        padding: 10px 41px;
         width: 200px;
         height: 50px;
     }
@@ -124,21 +144,30 @@
     }
     .order-button:hover {
         cursor: pointer;
+        color:  var(--black);
+        background-color: var(--white);
+        border: 3px solid var(--main-blue)
+    }
+    .order-button:focus {
+        color: var(--black);
+        background-color: var(--white);
+        border: 2px solid var(--main-blue)
     }
     
 /*Portfolio page: buttons*/
     .selector-button-text {
         color: var(--lighter-black);
+        background-color: var(--kolor7);
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.03em;
+        line-height: 26px;
     }
     .selector-button {
         background-color: var(--kolor7);
         border-radius: 4px;
         border: none;
-        width: 93px;
-        height: 38px;
+        padding: 6px 22px;
         cursor: pointer;
     }
     .selector-button:hover {
